@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SWPBirdBoarding</name>
+    </assembly>
+    <members>
+        <member name="M:SWPBirdBoarding.Controllers.AccountsController.GetAccounts(System.String,System.Int32,System.Int32)">
+            <summary>
+            lấy danh sách các tài khoản
+            </summary>
+        </member>
+        <member name="M:SWPBirdBoarding.Controllers.AccountsController.GetAccountById(System.Int32)">
+            <summary>
+            lấy thông tin chi tiết tài khoản.
+            </summary>
+        </member>
+        <member name="M:SWPBirdBoarding.Controllers.AccountsController.CreateAccountHost(SWPBirdBoarding.Controllers.AccountsController.HostAccountInfor)">
+            <summary>
+            tạo tài khoản cho chủ lưu trú
+            </summary>
+        </member>
+        <member name="M:SWPBirdBoarding.Controllers.AccountsController.LoginByHost(SWPBirdBoarding.Controllers.AccountsController.Login)">
+            <summary>
+            đăng nhập bằng chủ lưu trú
+            </summary>
+        </member>
+        <member name="M:SWPBirdBoarding.Controllers.AccountsController.LoginByMember(SWPBirdBoarding.Controllers.AccountsController.Login)">
+            <summary>
+            đăng nhập bằng tài khoản member
+            </summary>
+        </member>
+        <member name="M:SWPBirdBoarding.Controllers.BookingsController.GetBookingList(System.String,System.Int32)">
+            <summary>
+            lấy thông tin danh sách các đơn booking
+            </summary>
+        </member>
+        <member name="M:SWPBirdBoarding.Controllers.BookingsController.GetBookingDetail(System.Int32)">
+            <summary>
+            lấy thông tin chi tiết đơn booking.
+            </summary>
+        </member>
+        <member name="M:SWPBirdBoarding.Controllers.BookingsController.UpdateServiceBooking(SWPBirdBoarding.Controllers.BookingsController.ServiceBody)">
+            <summary>
+            cập nhật dịch vụ vào đơn booking
+            </summary>
+        </member>
+        <member name="M:SWPBirdBoarding.Controllers.BookingsController.AcceptBooking(System.Int32)">
+            <summary>
+            chấp nhận đơn booking
+            </summary>
+        </member>
+        <member name="M:SWPBirdBoarding.Controllers.HomeController.GetHostList(System.String,System.Int32,System.Int32)">
+            <summary>
+            lấy danh sách các chỗ lưu trú
+            </summary>
+        </member>
+        <member name="M:SWPBirdBoarding.Controllers.HomeController.GetBirdProfileList(System.Int32,System.String,System.Int32,System.Int32)">
+            <summary>
+            lấy thông tin danh sách về profile chim
+            </summary>
+        </member>
+        <member name="M:SWPBirdBoarding.Controllers.HomeController.CreateBirdProfile(SWPBirdBoarding.Controllers.HomeController.DetailBirdProfile)">
+            <summary>
+            thêm mới 1 profile chim
+            </summary>
+        </member>
+        <member name="M:SWPBirdBoarding.Controllers.HomeController.HistoryBooking(System.Int32,System.String,System.Int32,System.Int32)">
+            <summary>
+            lấy thông tin lịch sử đặt 
+            </summary>
+        </member>
+        <member name="M:SWPBirdBoarding.Controllers.HomeController.BookingDetail(System.Int32)">
+            <summary>
+            lấy thông tin chi tiết đơn booking.
+            </summary>
+        </member>
+        <member name="M:SWPBirdBoarding.Controllers.HomeController.BookingByMember(SWPBirdBoarding.Controllers.HomeController.DetailBooking)">
+            <summary>
+            Đặt đơn booking bởi member
+            </summary>
+        </member>
+        <member name="M:SWPBirdBoarding.Controllers.ServicesController.GetService(System.Int32,System.String,System.Int32,System.Int32)">
+            <summary>
+            Lấy thông tin danh sách dịch vụ bởi chủ lưu trú
+            </summary>
+        </member>
+        <member name="M:SWPBirdBoarding.Controllers.ServicesController.CreateAccountHost(SWPBirdBoarding.Controllers.ServicesController.Servicebyhost)">
+            <summary>
+            thêm mới dịch vụ bởi chủ lưu trú
+            </summary>
+        </member>
+    </members>
+</doc>
